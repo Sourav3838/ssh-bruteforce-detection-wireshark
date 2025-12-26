@@ -52,3 +52,11 @@ All screenshots related to the analysis are included in the screenshots/ directo
 ## Disclaimer
 
 This project was conducted in a controlled lab environment for educational purposes only.
+
+## SOC Analyst Perspective
+If repeated SSH login attempts were observed:
+- I would identify the source IP and number of failed attempts.
+- Check if the activity matches brute-force behavior.
+- Correlate with authentication and firewall logs.
+- Block or escalate the source IP if attempts continue.
+
