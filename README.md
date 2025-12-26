@@ -4,7 +4,7 @@ Detected SSH brute-force login attempts by analyzing repeated TCP port 22 connec
 ## Overview
 This project demonstrates how repeated failed SSH login attempts can be detected by analyzing network traffic using Wireshark.
 
-Lab Setup
+## Lab Setup
 
 Attacker: Kali Linux
 
@@ -12,7 +12,7 @@ Target: Metasploitable
 
 Tool: Wireshark
 
-Procedure
+## Procedure
 
 Started packet capture in Wireshark
 
@@ -27,7 +27,7 @@ Analyzed repeated connections using Statistics → Conversations → TCP
 
 Verified SSH sessions using Follow → TCP Stream
 
-Findings
+## Findings
 
 Multiple SSH connection attempts from a single source IP
 
@@ -35,7 +35,7 @@ Repeated authentication failures in a short time period
 
 Clear brute-force login pattern observed on TCP port 22
 
-Skills Demonstrated
+## Skills Demonstrated
 
 Network traffic analysis
 
@@ -45,10 +45,10 @@ Wireshark filtering and statistics
 
 SOC-style investigation workflow
 
-Screenshots
+## Screenshots
 
 All screenshots related to the analysis are included in the screenshots/ directory.
 
-Disclaimer
+## Disclaimer
 
 This project was conducted in a controlled lab environment for educational purposes only.
