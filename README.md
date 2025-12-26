@@ -1,8 +1,7 @@
 # ssh-bruteforce-detection-wireshark
 Detected SSH brute-force login attempts by analyzing repeated TCP port 22 connections using Wireshark in a controlled lab environment.
-Brute-Force Detection with Wireshark (SSH)
-Overview
 
+## Overview
 This project demonstrates how repeated failed SSH login attempts can be detected by analyzing network traffic using Wireshark.
 
 Lab Setup
