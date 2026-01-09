@@ -6,11 +6,11 @@ This project demonstrates how repeated failed SSH login attempts can be detected
 
 ## Lab Setup
 
-Attacker:- Kali Linux
+Attacker: Kali Linux
 
-Target:- Metasploitable
+Target: Metasploitable
 
-Tool:- Wireshark
+Tool: Wireshark
 
 ## Procedure
 
